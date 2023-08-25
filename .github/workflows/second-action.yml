@@ -1,0 +1,10 @@
+name: Second Action flow
+on: run_events
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greet
+        run: echo "welcome"
+      - name: print messge
+        run: echo "hello"
